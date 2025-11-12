@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { Sidebar } from "./Sidebar";
 import { Navbar } from "./Navbar";
+import { DashboardSubHeader } from "./DashboardSubHeader";
 
 interface AdminLayoutProps {
   children: ReactNode;
@@ -13,6 +14,7 @@ export function AdminLayout({ children }: AdminLayoutProps) {
       
       <div className="flex-1 flex flex-col">
         <Navbar />
+        <DashboardSubHeader />
         
         <main className="flex-1">
           {children}
