@@ -1,5 +1,4 @@
-import { DashboardLayout } from "@/components/DashboardLayout";
-import { DashboardHeader } from "@/components/DashboardHeader";
+import { AdminLayout } from "@/components/AdminLayout";
 import { StatCard } from "@/components/StatCard";
 import { RevenueChart } from "@/components/RevenueChart";
 import { LeadSourcesChart } from "@/components/LeadSourcesChart";
@@ -8,9 +7,7 @@ import { Store, DollarSign, ShoppingCart, TrendingUp } from "lucide-react";
 
 const Index = () => {
   return (
-    <DashboardLayout>
-      <DashboardHeader />
-      
+    <AdminLayout>
       <div className="p-8 space-y-6">
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -57,7 +54,7 @@ const Index = () => {
         {/* Shops Table */}
         <ShopsTable />
       </div>
-    </DashboardLayout>
+    </AdminLayout>
   );
 };
 
