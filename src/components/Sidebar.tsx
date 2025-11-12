@@ -38,7 +38,7 @@ export function Sidebar() {
       
       {/* User Profile in Middle */}
       <div className="px-6 py-8 mt-auto mb-auto">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 p-3 border border-border rounded-lg">
           <div className="w-10 h-10 rounded-full bg-success flex items-center justify-center text-white font-semibold">
             AD
           </div>
