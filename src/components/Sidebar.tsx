@@ -12,7 +12,7 @@ const menuItems = [
 export function Sidebar() {
   return (
     <aside className="w-64 bg-card border-r border-border flex flex-col">
-      <div className="p-6 flex-1">
+      <div className="p-6">
         <div className="flex items-center gap-2 mb-8">
           <div className="w-10 h-10 rounded-lg bg-success flex items-center justify-center">
             <Store className="w-6 h-6 text-white" />
@@ -36,8 +36,8 @@ export function Sidebar() {
         </div>
       </div>
       
-      {/* User Profile at Bottom */}
-      <div className="p-4 border-t border-border">
+      {/* User Profile in Middle */}
+      <div className="px-6 py-8 mt-auto mb-auto">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-success flex items-center justify-center text-white font-semibold">
             AD
